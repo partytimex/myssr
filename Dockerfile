@@ -1,6 +1,6 @@
 # shadowsocksr-net-speeder 
 FROM ubuntu:16.04
-MAINTAINER lnterface [https://github.com/lnterface/ssr-with-net_speeder]
+MAINTAINER lnterface [https://github.com/partytimex/myssr]
 RUN apt-get update && \
     apt-get install -y pwgen wget python python-m2crypto libnet1-dev libpcap0.8-dev libsodium-dev git gcc openssh-server && \
     apt-get clean all
